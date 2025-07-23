@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+  font-family: sans-serif;
+  margin-top: 50px;
+}
+
+.profile-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 0px;
+  object-fit: cover;
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.cast-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px auto;
+  max-width: 300px;
+  background: #f9f9f9;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.cast-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
+
+.cast-name {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 8px 0 4px 0;
+}
+
+.cast-role {
+  font-size: 1em;
+  color: #666;
+  margin: 0;
+}
